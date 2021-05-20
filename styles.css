@@ -1,0 +1,24 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+    margin: 0 50px;
+}
+
+.card {
+    padding: 16px;
+    box-shadow: 0 8px 26px -4px hsla(0,0%,8%,.15),0 8px 9px -5px hsla(0,0%,8%,.06);
+    border-radius: 14px;
+    height: 100px;
+    margin-bottom: 50px;
+}
+
+.card-header {
+    color: #5b5b5b;
+}
+
+.card-group {
+    display: flex;
+    justify-content: space-between;
+}
