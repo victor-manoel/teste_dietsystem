@@ -29,6 +29,14 @@ label {
   margin-bottom: 50px;
 }
 
+.card-2 {
+  padding: 16px;
+  box-shadow: 0 8px 26px -4px hsla(0, 0%, 8%, 0.15),
+    0 8px 9px -5px hsla(0, 0%, 8%, 0.06);
+  border-radius: 14px;
+  margin-bottom: 50px;
+}
+
 .card-header {
   color: #5b5b5b;
 }
@@ -45,6 +53,11 @@ label {
 
 .datum {
   margin-bottom: 10px;
+}
+
+.datum-2 {
+  margin-bottom: 10px;
+  display: flex;
 }
 
 .inline-field-group {
@@ -91,3 +104,9 @@ label {
   justify-content: center;
   align-items: center;
 }
+
+.box-refeicao-input-container {
+  padding: 0px !important;
+  margin-bottom: 8px !important;
+}
+
