@@ -1,24 +1,93 @@
 * {
-    font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", "Ubuntu", sans-serif;
+}
+
+input,
+textarea {
+  outline: 0;
+  border: 0;
+  background-color: #f2f2f0;
+  border-radius: 2px;
+  height: 30px;
+  width: 100%;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
 }
 
 .wrapper {
-    margin: 0 50px;
+  margin: 0 50px;
 }
 
 .card {
-    padding: 16px;
-    box-shadow: 0 8px 26px -4px hsla(0,0%,8%,.15),0 8px 9px -5px hsla(0,0%,8%,.06);
-    border-radius: 14px;
-    height: 100px;
-    margin-bottom: 50px;
+  padding: 16px;
+  box-shadow: 0 8px 26px -4px hsla(0, 0%, 8%, 0.15),
+    0 8px 9px -5px hsla(0, 0%, 8%, 0.06);
+  border-radius: 14px;
+  margin-bottom: 50px;
 }
 
 .card-header {
-    color: #5b5b5b;
+  color: #5b5b5b;
 }
 
 .card-group {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+}
+
+.field-label {
+  color: gray;
+  font-size: 14px;
+}
+
+.datum {
+  margin-bottom: 10px;
+}
+
+.inline-field-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fields-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 150px;
+}
+
+.field-right-spacing {
+  margin-right: 2px;
+}
+
+.shorter-field {
+  width: 33%;
+}
+
+.inline-elements-container {
+  display: flex;
+}
+
+.receita-img-container {
+  flex: 3;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.basic-info-fields-container {
+  flex: 4;
+}
+
+.receita-img-wrapper {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  background-color: #f2f2f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

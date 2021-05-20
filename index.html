@@ -1,34 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-<body>
+  <body>
     <div class="wrapper">
-        <div class="card">
-            <p class="card-header">Informação básica</p>
-        </div>
-        <div class="card">
-            <p class="card-header">Ingredientes</p>
-        </div>
-        <div class="card">
-            <p class="card-header">Método de preparo</p>
-        </div>
-        <div class="card-group">
-            <div class="card">
-                <p class="card-header">Porção e medidas caseiras</p>
+      <div class="card">
+        <p class="card-header">Informação básica</p>
+        <div class="inline-elements-container">
+          <div class="basic-info-field-container">
+            <div class="datum">
+              <label class="field-label" for="">Nome</label>
+              <input type="text" />
             </div>
-            <div class="card">
-                <p class="card-header">Micronutrientes por 2 copos</p>
+            <div class="datum">
+              <label class="field-label" for="">Descrição</label>
+              <textarea name="" id="" cols="30" rows="10"></textarea>
             </div>
+            <div class="datum inline-field-group">
+              <div>
+                <label for="" class="field-label">Tempo de preparo</label>
+                <input type="text" />
+              </div>
+              <div>
+                <label for="" class="field-label">Peso total da receita</label>
+                <div class="inline-field-group">
+                  <input
+                    class="field-right-spacing shorter-field"
+                    type="text"
+                  />
+                  <input type="text" />
+                </div>
+              </div>
+              <div>
+                <label for="" class="field-label">Número de porções</label>
+                <input type="text" />
+              </div>
+            </div>
+            <div>
+              <label for="" class="field-label">Categoria</label>
+              <input type="text" />
+            </div>
+          </div>
+          <div class="receita-img-container">
+            <div class="receita-img-wrapper">
+              <img
+                class="receita-img"
+                src="img/sanduichinho.png"
+                alt="sanduichinho.png"
+              />
+            </div>
+          </div>
         </div>
+      </div>
+      <div class="card">
+        <p class="card-header">Ingredientes</p>
+      </div>
+      <div class="card">
+        <p class="card-header">Método de preparo</p>
+      </div>
+      <div class="card-group">
+        <div class="card">
+          <p class="card-header">Porção e medidas caseiras</p>
+        </div>
+        <div class="card">
+          <p class="card-header">Micronutrientes por 2 copos</p>
+        </div>
+      </div>
     </div>
-</body>
-
+  </body>
 </html>
