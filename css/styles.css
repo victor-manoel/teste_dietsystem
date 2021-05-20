@@ -106,9 +106,43 @@ label {
 
 .box {
   display: block;
-} 
+}
 
-.number{
+.number {
   justify-content: center;
 }
 
+.enumeration {
+  background-color: #f2f2f0;
+  margin-right: 5px;
+  flex: 1;
+  text-align: center;
+  color: gray;
+}
+
+.method-container {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.method-description {
+  flex: 20;
+}
+
+.trash-icon {
+  flex: 1;
+  margin-left: 5px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.trash-icon i {
+  color: black;
+}
+
+.trash-icon i:hover {
+  color: red;
+  cursor: pointer;
+}
