@@ -29,14 +29,6 @@ label {
   margin-bottom: 50px;
 }
 
-.card-2 {
-  padding: 16px;
-  box-shadow: 0 8px 26px -4px hsla(0, 0%, 8%, 0.15),
-    0 8px 9px -5px hsla(0, 0%, 8%, 0.06);
-  border-radius: 14px;
-  margin-bottom: 50px;
-}
-
 .card-header {
   color: #5b5b5b;
 }
@@ -95,6 +87,12 @@ label {
   flex: 4;
 }
 
+.basic-info-field-container-2 {
+  display: flex;
+  font-size: small;
+  align-items: center;
+}
+
 .receita-img-wrapper {
   width: 220px;
   height: 220px;
@@ -105,8 +103,7 @@ label {
   align-items: center;
 }
 
-.box-refeicao-input-container {
-  padding: 0px !important;
-  margin-bottom: 8px !important;
-}
+.box {
+  display: block;
+} 
 
